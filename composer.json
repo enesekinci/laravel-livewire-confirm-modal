@@ -3,6 +3,18 @@
     "description": "Confirm dialog for Laravel Livewire destructive actions.",
     "type": "library",
     "license": "MIT",
+    "keywords": ["laravel", "livewire", "confirm", "modal", "dialog"],
+    "authors": [
+        {
+            "name": "Enes Ekinci",
+            "homepage": "https://github.com/enesekinci"
+        }
+    ],
+    "homepage": "https://github.com/enesekinci/laravel-livewire-confirm-modal",
+    "support": {
+        "issues": "https://github.com/enesekinci/laravel-livewire-confirm-modal/issues",
+        "source": "https://github.com/enesekinci/laravel-livewire-confirm-modal"
+    },
     "require": {
         "php": "^8.2",
         "illuminate/support": "^11.0|^12.0|^13.0",
