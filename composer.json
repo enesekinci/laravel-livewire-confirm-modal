@@ -1,0 +1,26 @@
+{
+    "name": "enesekinci/laravel-livewire-confirm-modal",
+    "description": "Confirm dialog for Laravel Livewire destructive actions.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0|^13.0",
+        "illuminate/view": "^11.0|^12.0|^13.0",
+        "livewire/livewire": "^3.0|^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EnesEkinci\\ConfirmModal\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EnesEkinci\\ConfirmModal\\ConfirmModalServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
