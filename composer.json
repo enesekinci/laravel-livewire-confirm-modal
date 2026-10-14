@@ -3,7 +3,13 @@
     "description": "Confirm dialog for Laravel Livewire destructive actions.",
     "type": "library",
     "license": "MIT",
-    "keywords": ["laravel", "livewire", "confirm", "modal", "dialog"],
+    "keywords": [
+        "laravel",
+        "livewire",
+        "confirm",
+        "modal",
+        "dialog"
+    ],
     "authors": [
         {
             "name": "Enes Ekinci",
@@ -34,5 +40,6 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "version": "1.0.0"
 }

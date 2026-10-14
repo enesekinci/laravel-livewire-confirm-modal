@@ -57,6 +57,7 @@ class ConfirmHost extends Component
         $this->resetState();
 
         if ($event !== '') {
+            // Named params: Alpine payload { id: 1 } → delete-note(id: 1)
             $this->dispatch($event, ...$payload);
         }
     }
